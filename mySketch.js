@@ -5,7 +5,7 @@ function setup() {
 
 function draw() {
 	blendMode(MULTIPLY)
-	background(0, 0.98)
+	background(0, 0.9)
 	
 
 	let clr1 = color("#fd1")
@@ -14,7 +14,7 @@ function draw() {
 	noStroke()
 	blendMode(LIGHTEST)
 	translate(width/2, height/2)
-	rotate(frameCount/5)
+	rotate(frameCount/10)
 	
 	for (let j = 0; j < 8; j++) {
 		rotate(j / 8 * 2 * PI + random(-0.5, 0.5))
